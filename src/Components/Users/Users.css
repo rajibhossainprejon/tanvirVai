@@ -1,0 +1,13 @@
+.whole{
+    display: flex;
+}
+.users{
+    width: 70%;
+    border-right: 1px solid lightgray;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.profile{
+    margin-right: 5px;
+    margin-left: 10px;
+}
