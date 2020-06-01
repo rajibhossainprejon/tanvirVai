@@ -5,11 +5,13 @@
     width: 300px;
     padding: 10px;
     margin: 20px;
-    background-image:  linear-gradient(-90deg, #FCF951FF,rgb(253, 251, 97));
+    background-image:   linear-gradient(-90deg,  #143d59,#143d59);
+
+    
     border-radius: 5px;
     border: 2px;
     text-align: center;
-    color: #12343b;
+    color: #fff5d7;
   }
   .cards img{
     height: 30%;
@@ -30,9 +32,9 @@
   .cards button{
     width: 160px;
     height: 60px;
-    background-color:  rgb(253, 251, 97);
+    background-image:   linear-gradient(90deg, white,white);
     border: 1px solid #12343b;
     padding: 10px;
     border-radius: 5px;
-    cursor: pointer;
+    
   }

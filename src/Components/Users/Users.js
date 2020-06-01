@@ -10,6 +10,14 @@ const Users = () => {
         .then(data=>updateUserInfo(data));
 
     },[])
+    const [user,updateUser]=useState([]);
+    const addUser=(selectedUser)=>{
+        
+       
+        const newArray=[...user,selectedUser];
+        updateUser(newArray)
+    };
+    
    
     
 
@@ -17,11 +25,11 @@ const Users = () => {
         <div className='whole'>
             <div className='users'>
            {
-               userInfo.map(userInfo=><Card userInfo={userInfo}></Card>)
+               userInfo.map(userInfo=><Card addUser={addUser} userInfo={userInfo}></Card>)
            }
             </div>
             <div className='profile'>
-                <Myprofile></Myprofile>
+                <Myprofile  user={user}></Myprofile>
             </div>
         </div>
     );
