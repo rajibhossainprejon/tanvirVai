@@ -34,7 +34,7 @@ body {
   cursor: pointer;
   color:#12343b;
 }
-.card button: :hover{
+.card button :hover{
   background-color: green;
 }
 .card img{
